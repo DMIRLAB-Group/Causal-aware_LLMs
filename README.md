@@ -1,15 +1,12 @@
-![CleanShot 2025-05-13 at 19 17 57@2x](https://github.com/user-attachments/assets/b0ed1fc8-5059-416e-90e6-8b8f7dae03af)This repository contains the official implementation of our IJCAI 2025 paper:  
+This repository is the official implementation of the IJCAI 2025 paper:  
 **Causal-aware Large Language Models: Enhancing Decision-Making through Learning, Adapting and Acting**
 
-![CleanShot 2025-05-13 at 19 17 57@2x](https://github.com/user-attachments/assets/2b014559-ef02-4ddc-940f-5209b3fc7da6)
+
 ##  Overview
 
-We propose a novel **Causal-aware LLMs framework** to enhance decision-making by integrating **Structural Causal Models (SCMs)** into the decision-making process of large language models (LLMs). Our approach follows a *learning–adapting–acting* loop and is designed to extract, refine, and utilize causal knowledge to guide reinforcement learning agents toward more effective policy learning.
+**Causal-aware LLMs** is a novel framework that integrates the structural causal model (SCM) into the decision-making process to model, update, and utilize structured knowledge of the environment in a “learning-adapting-acting” paradigm.
 
-Key Contributions:
-- Introduced a causal-structured LLM framework guided by SCM.
-- Enabled self-correction of causal knowledge using policy feedback.
-- Achieved **significant performance improvements** on the Crafter benchmark.
+![causal-aware_LLMs](img/framework.png)
 
 
 ##  Quick Start
@@ -103,9 +100,9 @@ python train.py
 If you find this work helpful, please consider citing:
 
 ```bibtex
-@inproceedings{your2025causalllm,
+@inproceedings{chen2025causalllm,
   title={Causal-aware Large Language Models: Enhancing Decision-Making through Learning, Adapting and Acting},
-  author={Your Name et al.},
+  author={Wei Chen, Jiahao Zhang, Haipeng Zhu, Boyan Xu, Zhifeng Hao, Keli Zhang, Junjian Ye, Ruichu Cai},
   booktitle={Proceedings of the 34th International Joint Conference on Artificial Intelligence (IJCAI)},
   year={2025}
 }

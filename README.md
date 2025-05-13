@@ -6,7 +6,7 @@ This repository is the official implementation of the IJCAI 2025 paper:
 
 **Causal-aware LLMs** is a novel framework that integrates the structural causal model (SCM) into the decision-making process to model, update, and utilize structured knowledge of the environment in a “learning-adapting-acting” paradigm.
 
-![causal-aware_LLMs](./img/framework.png)
+![causal-aware_LLMs](./img/causal-aware_LLMs.png)
 
 
 ##  Quick Start
